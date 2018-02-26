@@ -12,9 +12,23 @@
 		5491521A203F335F009C7138 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 54915218203F335F009C7138 /* Main.storyboard */; };
 		5491521F203F335F009C7138 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5491521D203F335F009C7138 /* LaunchScreen.storyboard */; };
 		54915227203F339A009C7138 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 54915226203F339A009C7138 /* Assets.xcassets */; };
+		81C701C220445F3D006C294A /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701C120445F3D006C294A /* MainTabBarController.swift */; };
+		81C701C420445FDA006C294A /* PostFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701C320445FDA006C294A /* PostFeedViewController.swift */; };
+		81C701C620445FED006C294A /* UploadPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701C520445FED006C294A /* UploadPostViewController.swift */; };
+		81C701C820446020006C294A /* LoginPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701C720446020006C294A /* LoginPageViewController.swift */; };
+		81C701CA2044613A006C294A /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701C92044613A006C294A /* LoginView.swift */; };
+		81C701CC20446927006C294A /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701CB20446927006C294A /* UserService.swift */; };
+		81C701CE20446A1A006C294A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 81C701CD20446A1A006C294A /* GoogleService-Info.plist */; };
+		81C701D020447EBD006C294A /* PostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701CF20447EBD006C294A /* PostCell.swift */; };
+		81C701D22044804C006C294A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701D12044804C006C294A /* Post.swift */; };
+		81C701D4204485FF006C294A /* DatabaseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701D3204485FF006C294A /* DatabaseService.swift */; };
+		81C701D6204486CD006C294A /* DatabaseService+Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701D5204486CD006C294A /* DatabaseService+Post.swift */; };
+		81C701D820449CF0006C294A /* UploadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81C701D720449CF0006C294A /* UploadView.swift */; };
+		FEFDC38A98B2A8D12242E218 /* Pods_AC_iOS_Final.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E72825F217B1CD28DB829A8 /* Pods_AC_iOS_Final.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E72825F217B1CD28DB829A8 /* Pods_AC_iOS_Final.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AC_iOS_Final.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		54915211203F335F009C7138 /* AC-iOS-Final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AC-iOS-Final.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		54915214203F335F009C7138 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		54915216203F335F009C7138 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +36,20 @@
 		5491521E203F335F009C7138 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		54915220203F335F009C7138 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		54915226203F339A009C7138 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		81C701C120445F3D006C294A /* MainTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		81C701C320445FDA006C294A /* PostFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostFeedViewController.swift; sourceTree = "<group>"; };
+		81C701C520445FED006C294A /* UploadPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadPostViewController.swift; sourceTree = "<group>"; };
+		81C701C720446020006C294A /* LoginPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginPageViewController.swift; sourceTree = "<group>"; };
+		81C701C92044613A006C294A /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		81C701CB20446927006C294A /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		81C701CD20446A1A006C294A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "AC-iOS-Final/GoogleService-Info.plist"; sourceTree = "<group>"; };
+		81C701CF20447EBD006C294A /* PostCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostCell.swift; sourceTree = "<group>"; };
+		81C701D12044804C006C294A /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		81C701D3204485FF006C294A /* DatabaseService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseService.swift; sourceTree = "<group>"; };
+		81C701D5204486CD006C294A /* DatabaseService+Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "DatabaseService+Post.swift"; sourceTree = "<group>"; };
+		81C701D720449CF0006C294A /* UploadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadView.swift; sourceTree = "<group>"; };
+		92D012A5B290376C8CEB235B /* Pods-AC-iOS-Final.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AC-iOS-Final.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AC-iOS-Final/Pods-AC-iOS-Final.debug.xcconfig"; sourceTree = "<group>"; };
+		99F22D60E7B9EAC5C4160498 /* Pods-AC-iOS-Final.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AC-iOS-Final.release.xcconfig"; path = "Pods/Target Support Files/Pods-AC-iOS-Final/Pods-AC-iOS-Final.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +57,30 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEFDC38A98B2A8D12242E218 /* Pods_AC_iOS_Final.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3A091638E5883AD86890FD51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				92D012A5B290376C8CEB235B /* Pods-AC-iOS-Final.debug.xcconfig */,
+				99F22D60E7B9EAC5C4160498 /* Pods-AC-iOS-Final.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		54915208203F335F009C7138 = {
 			isa = PBXGroup;
 			children = (
+				81C701CD20446A1A006C294A /* GoogleService-Info.plist */,
 				54915213203F335F009C7138 /* AC-iOS-Final */,
 				54915212203F335F009C7138 /* Products */,
+				3A091638E5883AD86890FD51 /* Pods */,
+				91C941A7CAF88887B9A379A8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,6 +95,11 @@
 		54915213203F335F009C7138 /* AC-iOS-Final */ = {
 			isa = PBXGroup;
 			children = (
+				81C701BC20445E4D006C294A /* Models */,
+				81C701BD20445E54006C294A /* Views */,
+				81C701BE20445E68006C294A /* Controllers */,
+				81C701BF20445E71006C294A /* Stores */,
+				81C701C020445E75006C294A /* Helpers */,
 				54915214203F335F009C7138 /* AppDelegate.swift */,
 				54915216203F335F009C7138 /* ViewController.swift */,
 				54915218203F335F009C7138 /* Main.storyboard */,
@@ -64,6 +110,60 @@
 			path = "AC-iOS-Final";
 			sourceTree = "<group>";
 		};
+		81C701BC20445E4D006C294A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				81C701D12044804C006C294A /* Post.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		81C701BD20445E54006C294A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				81C701C92044613A006C294A /* LoginView.swift */,
+				81C701CF20447EBD006C294A /* PostCell.swift */,
+				81C701D720449CF0006C294A /* UploadView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		81C701BE20445E68006C294A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				81C701C120445F3D006C294A /* MainTabBarController.swift */,
+				81C701C720446020006C294A /* LoginPageViewController.swift */,
+				81C701C320445FDA006C294A /* PostFeedViewController.swift */,
+				81C701C520445FED006C294A /* UploadPostViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		81C701BF20445E71006C294A /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		81C701C020445E75006C294A /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				81C701CB20446927006C294A /* UserService.swift */,
+				81C701D3204485FF006C294A /* DatabaseService.swift */,
+				81C701D5204486CD006C294A /* DatabaseService+Post.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		91C941A7CAF88887B9A379A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E72825F217B1CD28DB829A8 /* Pods_AC_iOS_Final.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 54915223203F335F009C7138 /* Build configuration list for PBXNativeTarget "AC-iOS-Final" */;
 			buildPhases = (
+				4255C07F0E395375DD6C480A /* [CP] Check Pods Manifest.lock */,
 				5491520D203F335F009C7138 /* Sources */,
 				5491520E203F335F009C7138 /* Frameworks */,
 				5491520F203F335F009C7138 /* Resources */,
+				33CFA927CE24CB9D1713ED0D /* [CP] Embed Pods Frameworks */,
+				EAF463CD5D9EB19FC685AB39 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -124,6 +227,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5491521F203F335F009C7138 /* LaunchScreen.storyboard in Resources */,
+				81C701CE20446A1A006C294A /* GoogleService-Info.plist in Resources */,
 				54915227203F339A009C7138 /* Assets.xcassets in Resources */,
 				5491521A203F335F009C7138 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +235,84 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		33CFA927CE24CB9D1713ED0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-AC-iOS-Final/Pods-AC-iOS-Final-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AC-iOS-Final/Pods-AC-iOS-Final-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4255C07F0E395375DD6C480A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AC-iOS-Final-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EAF463CD5D9EB19FC685AB39 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AC-iOS-Final/Pods-AC-iOS-Final-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		5491520D203F335F009C7138 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				81C701D6204486CD006C294A /* DatabaseService+Post.swift in Sources */,
+				81C701C620445FED006C294A /* UploadPostViewController.swift in Sources */,
+				81C701CA2044613A006C294A /* LoginView.swift in Sources */,
+				81C701C420445FDA006C294A /* PostFeedViewController.swift in Sources */,
 				54915217203F335F009C7138 /* ViewController.swift in Sources */,
+				81C701CC20446927006C294A /* UserService.swift in Sources */,
+				81C701D020447EBD006C294A /* PostCell.swift in Sources */,
+				81C701C820446020006C294A /* LoginPageViewController.swift in Sources */,
 				54915215203F335F009C7138 /* AppDelegate.swift in Sources */,
+				81C701C220445F3D006C294A /* MainTabBarController.swift in Sources */,
+				81C701D820449CF0006C294A /* UploadView.swift in Sources */,
+				81C701D22044804C006C294A /* Post.swift in Sources */,
+				81C701D4204485FF006C294A /* DatabaseService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,6 +447,7 @@
 		};
 		54915224203F335F009C7138 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92D012A5B290376C8CEB235B /* Pods-AC-iOS-Final.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -287,6 +463,7 @@
 		};
 		54915225203F335F009C7138 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99F22D60E7B9EAC5C4160498 /* Pods-AC-iOS-Final.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
